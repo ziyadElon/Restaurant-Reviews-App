@@ -1,6 +1,13 @@
 let restaurant;
 var map;
-
+const apiKey = API_KEY;
+const mapUrl= "https://maps.googleapis.com/maps/api/js?key=" + apiKey + "&libraries=places&callback=initMap";
+const mapScript = document.createElement("script");
+mapScript.setAttribute("async", "");
+mapScript.setAttribute("defer", "");
+mapScript.src = mapUrl;
+const body = document.getElementsByTagName("body");
+body[0].appendChild(mapScript);
 /**
  * Initialize Google map, called from HTML.
  */
