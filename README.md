@@ -8,7 +8,7 @@ I understand it might cause issues, for the reviewer so the file will be provide
 
 ### Running the app
 1. Create a file named 'key.js' in the root directory and add the following code:
- `const API_KEY = '{replace this text including curly braces with your API key}';`
+ `const API_KEY = '{replace this text and enclosing curly braces with your API key}';`
  example: const API_KEY = 'jcnskcn_jjdknjcns';
 2. Once the master branch has been cloned, set up a local server (I used 'Web server for chrome') and point to the cloned directory.
 3. Set the port number.
